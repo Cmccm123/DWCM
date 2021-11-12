@@ -13,13 +13,13 @@ Hello everyone. I am Sunny. I graduated with an HD in Data Science and Analytics
 - data (list; required):
     dataset for word cloud visualising. datatype is array. on the array you need a
     words columns and the freq columns of each word.
-    for example {'keyword': 10}.
+    for example [{'word':'a','freq':100}].
 
 - filterString (list; optional):
    the word cloud filtrate the selected keyword(s). you should not set/input this parameter.
 
 - freqs (string; required):
-    frequency or concurrency of each keyword
+    frequency or occurence of each keyword
 
 - height (string; optional):
     the height of the boundary of the word cloud.

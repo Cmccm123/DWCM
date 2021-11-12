@@ -1,0 +1,11 @@
+README.txt
+setup.cfg
+setup.py
+Dwcm/Wordcloud.py
+Dwcm/__init__.py
+Dwcm/_imports_.py
+Dwcm.egg-info/PKG-INFO
+Dwcm.egg-info/SOURCES.txt
+Dwcm.egg-info/dependency_links.txt
+Dwcm.egg-info/requires.txt
+Dwcm.egg-info/top_level.txt
