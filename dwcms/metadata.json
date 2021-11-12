@@ -1,0 +1,104 @@
+{
+  "src/lib/components/Wordcloud.react.js": {
+    "description": "",
+    "displayName": "Wordcloud",
+    "methods": [
+      {
+        "name": "updateDimensions",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "wordcloud_build",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "maxfreq",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateFilter",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "v",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "the id of word cloud in the html DOM"
+      },
+      "height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "the height of word cloud"
+      },
+      "width": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "the width of word cloud"
+      },
+      "filterString": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "the user clicked word list,use on dashboard for user to filter data. you should not set/input this parameter"
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": true,
+        "description": "dataset of word cloud. datatype is array. on the array you need a words columns and the freq columns of each word"
+      },
+      "words": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "your column name of words columns in your dataset"
+      },
+      "freqs": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "your column name of freq columns in your dataset"
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "just for future may be to use"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
