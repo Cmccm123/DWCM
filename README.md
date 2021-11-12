@@ -30,6 +30,7 @@ Hello everyone. I am Sunny. I graduated with an HD in Data Science and Analytics
 - value (string; optional):
     just for future may be to use.
 
+# Example
 ```python
 import Dwcm
 data = [{'word': 'A', 'freq': 15},{'word': 'B', 'freq': 22}],

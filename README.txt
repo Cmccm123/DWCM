@@ -35,6 +35,9 @@ Keyword arguments:
 - value (string; optional):
     just for future may be to use.
 
+Example
+=======
+
 .. code:: python
    import Dwcm
    data = [{'word': 'A', 'freq': 15},{'word': 'B', 'freq': 22}],
