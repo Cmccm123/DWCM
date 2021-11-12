@@ -8,25 +8,25 @@ Hello everyone. I am Sunny. I graduated with an HD in Data Science and Analytics
 # Keyword arguments:
 
 - id (string; optional):
-    the id of word cloud in the html DOM.
+   the unique identity of keyword in word cloud html DOM.
 
 - data (list; required):
-    dataset of word cloud. datatype is array. on the array you need a
+    dataset for word cloud visualising. datatype is array. on the array you need a
     words columns and the freq columns of each word.
+    for example {'keyword': 10}.
 
 - filterString (list; optional):
-    the user clicked word list,use on dashboard for user to filter
-    data. you should not set/input this parameter.
+   the word cloud filtrate the selected keyword(s). you should not set/input this parameter.
 
 - freqs (string; required):
-    your column name of freq columns in your dataset.
+    frequency or concurrency of each keyword
 
 - height (string; optional):
-    the height of word cloud.
+    the height of the boundary of the word cloud.
+
+- width (string; optional):
+    the width of the boundary of the word cloud.
 
 - value (string; optional):
     just for future may be to use.
-
-- width (string; optional):
-    the width of word cloud.
 
